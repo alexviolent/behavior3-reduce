@@ -12,7 +12,9 @@
 > npm install mdserver -g
 
 > mdserver
+
 ========================
+
 > 然后打开谷歌浏览器进入http://127.0.0.1:3333即可打开编辑器 
 
 > 菜单依次 Project>Export>Project as JSON 可以看到Save as bin按钮，这里是浏览器，点击了也保存不了文件
