@@ -6,14 +6,22 @@
 修改了behavior库的导入数据接口在libs\behavior3js.js，带了个d.ts方便代码提示
 # 使用
 > git clone https://github.com/alexviolent/behavior3-reduce.git
+
 > cd b3editor
+
 > npm install mdserver -g
+
 > mdserver
 ========================
 > 然后打开谷歌浏览器进入http://127.0.0.1:3333即可打开编辑器 
+
 > 菜单依次 Project>Export>Project as JSON 可以看到Save as bin按钮，这里是浏览器，点击了也保存不了文件
+
 > 所以想导出文件，需要使用nodewebkit把编辑器打包成exe，怎么使用自行百度
+
 > nodewebkit官网nwjs(http://nwjs.io/)
+
+> release里面也有上传用nwjs打包好的编辑器
 
 =========================
 ![Image text](./screenshot.jpg)
